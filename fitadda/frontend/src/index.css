@@ -1,0 +1,164 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  :root {
+    --font-display: 'Outfit', 'Noto Sans Arabic', sans-serif;
+    --font-sans: 'Plus Jakarta Sans', 'Noto Sans Arabic', -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-urdu: 'Noto Sans Arabic', 'Noto Nastaliq Urdu', serif;
+    --font-mono: 'JetBrains Mono', monospace;
+  }
+
+  html {
+    font-family: var(--font-sans);
+    scroll-behavior: smooth;
+  }
+
+  html[lang='ur'] body {
+    font-family: var(--font-urdu);
+    line-height: 1.75;
+  }
+
+  h1, h2, h3, .font-display {
+    font-family: var(--font-display);
+  }
+
+  html[lang='ur'] h1,
+  html[lang='ur'] h2,
+  html[lang='ur'] h3,
+  html[lang='ur'] .font-display {
+    font-family: var(--font-urdu);
+  }
+
+  .tabular-nums {
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+@keyframes floatSlow {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-8px) rotate(2.5deg);
+  }
+}
+
+@keyframes floatReverse {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(7px) rotate(-2.5deg);
+  }
+}
+
+@keyframes softBounce {
+  0%, 100% {
+    transform: translateY(0) scale(1);
+  }
+  40% {
+    transform: translateY(-6px) scale(1.03);
+  }
+  70% {
+    transform: translateY(1px) scale(0.99);
+  }
+}
+
+.animate-float-slow {
+  animation: floatSlow 6s ease-in-out infinite;
+}
+
+.animate-float-reverse {
+  animation: floatReverse 7s ease-in-out infinite;
+}
+
+.animate-soft-bounce {
+  animation: softBounce 0.65s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Tactile 3D button lip - Lavender & Purple */
+.btn-3d-primary {
+  box-shadow: 0 3px 0 #5B21B6, 0 8px 20px -6px rgba(124, 58, 237, 0.38);
+  transition: transform 150ms cubic-bezier(0.16, 1, 0.3, 1), box-shadow 150ms cubic-bezier(0.16, 1, 0.3, 1), background-color 150ms ease;
+}
+
+.btn-3d-primary:hover:not(:disabled) {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 0 #5B21B6, 0 12px 24px -6px rgba(124, 58, 237, 0.45);
+}
+
+.btn-3d-primary:active:not(:disabled) {
+  transform: translateY(2px);
+  box-shadow: 0 1.5px 0 #5B21B6, 0 4px 10px -3px rgba(124, 58, 237, 0.28);
+}
+
+.dark .btn-3d-primary {
+  box-shadow: 0 3px 0 #115E59, 0 8px 20px -6px rgba(13, 148, 136, 0.36);
+}
+
+.dark .btn-3d-primary:hover:not(:disabled) {
+  box-shadow: 0 4px 0 #115E59, 0 12px 24px -6px rgba(20, 184, 166, 0.44);
+}
+
+.dark .btn-3d-primary:active:not(:disabled) {
+  box-shadow: 0 1.5px 0 #115E59, 0 4px 10px -3px rgba(13, 148, 136, 0.28);
+}
+
+.btn-3d-secondary {
+  box-shadow: 0 2.5px 0 #DDD6FE, 0 4px 12px -4px rgba(124, 58, 237, 0.09);
+  transition: transform 150ms cubic-bezier(0.16, 1, 0.3, 1), box-shadow 150ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.dark .btn-3d-secondary {
+  box-shadow: 0 2.5px 0 #262A34, 0 4px 12px -4px rgba(0, 0, 0, 0.45);
+}
+
+.btn-3d-secondary:hover:not(:disabled) {
+  transform: translateY(-1px);
+}
+
+.btn-3d-secondary:active:not(:disabled) {
+  transform: translateY(1.5px);
+}
+
+/* Glassmorphism helper */
+.glass-card {
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+}
+
+/* Soft lavender scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(124, 58, 237, 0.25);
+  border-radius: 9999px;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: rgba(156, 163, 175, 0.28);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(124, 58, 237, 0.45);
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: rgba(45, 212, 191, 0.45);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-float-slow,
+  .animate-float-reverse,
+  .animate-soft-bounce {
+    animation: none !important;
+  }
+}

@@ -1,0 +1,771 @@
+{
+  "brand": {
+    "name": "FitAdda",
+    "tagline": "Sehat bhi, Khushi bhi. Apne andaaz mein!",
+    "subTagline": "Health and happiness, in your own style",
+    "mascotName": "MilkMate"
+  },
+  "common": {
+    "next": "Next",
+    "back": "Back",
+    "continue": "Continue",
+    "save": "Save Changes",
+    "cancel": "Cancel",
+    "close": "Close",
+    "search": "Search workouts, desi meals, tips...",
+    "noResults": "No matching items found",
+    "tryAnotherSearch": "Try a different keyword or clear the filter.",
+    "clearFilters": "Clear Filters",
+    "loading": "Preparing your FitAdda space...",
+    "minutes": "mins",
+    "seconds": "sec",
+    "kcal": "kcal",
+    "glasses": "glasses",
+    "days": "days",
+    "sessions": "sessions",
+    "protein": "Protein",
+    "carbs": "Carbs",
+    "fats": "Fats",
+    "fiber": "Fiber",
+    "sets": "Sets",
+    "reps": "Reps",
+    "rest": "Rest",
+    "all": "All",
+    "today": "Today",
+    "friend": "Dost",
+    "stepOf": "Step {current} of {total}",
+    "completed": "Completed",
+    "start": "Start",
+    "add": "Add",
+    "remove": "Remove",
+    "viewRecipe": "View Recipe",
+    "logMeal": "Log to Diary",
+    "weekly": "Weekly",
+    "monthly": "Monthly",
+    "light": "Light Mode",
+    "dark": "Dark Mode",
+    "yes": "Yes",
+    "no": "No",
+    "justNow": "Just now"
+  },
+  "nav": {
+    "home": "Home",
+    "workouts": "Workouts",
+    "dietPlan": "Diet Plan",
+    "nutrition": "Nutrition",
+    "progress": "Progress",
+    "challenges": "Challenges",
+    "profile": "Profile",
+    "settings": "Settings",
+    "notifications": "Notifications",
+    "markAllRead": "Mark all read",
+    "noNotifications": "You are all caught up! Stay hydrated.",
+    "replayOnboarding": "Replay Onboarding",
+    "openMenu": "Open navigation menu",
+    "closeMenu": "Close navigation menu",
+    "searchNoMatch": "No workouts or meals matched your search."
+  },
+  "notifications": {
+    "n1Title": "MilkMate says Sip & Smile!",
+    "n1Body": "You are halfway to your daily hydration target—grab a glass of water or buttermilk.",
+    "n2Title": "Desi Lunch Idea Ready",
+    "n2Body": "Try the Grilled Paneer & Daal Thali in your Diet Plan for balanced protein.",
+    "n3Title": "Gentle Streak Celebrated",
+    "n3Body": "Zero pressure—every 15-minute stretch counts toward your FitAdda rhythm."
+  },
+  "onboarding": {
+    "step1Badge": "Welcome to FitAdda",
+    "step1Title": "Choose your preferred language",
+    "step1Subtitle": "Every menu, workout guide, recipe, and greeting adapts instantly to the language you love.",
+    "langEnDesc": "Clean international English with friendly desi flavor",
+    "langUrDesc": "خوبصورت اردو رسم الخط اور دائیں سے بائیں ترتیب",
+    "langRomanDesc": "Apna desi andaaz — English letters mein aasan Urdu",
+    "step2Title": "Which country are you from?",
+    "step2Subtitle": "We customize your cultural greeting while keeping your chosen language intact.",
+    "countrySearchPlaceholder": "Search any country (e.g., Pakistan, India, UAE, UK, Japan)...",
+    "countryEmpty": "No countries match that search. Try another spelling!",
+    "countryRequiredError": "Please pick a country first so we can greet you warmly.",
+    "step3Title": "Let's personalize your experience!",
+    "step3Subtitle": "Choose the personal fitness style that matches your journey.",
+    "genderWomen": "Women",
+    "genderWomenDesc": "Tailored studio workouts, mobility flows, and balanced nutrition",
+    "genderMen": "Men",
+    "genderMenDesc": "Tailored strength, stamina routines, and protein-rich desi meals",
+    "step4Title": "What would you like to achieve?",
+    "step4Subtitle": "Focus on health, energy, strength, and joy—never pressure or body comparison.",
+    "goalStayActive": "Stay Active",
+    "goalStayActiveDesc": "Light daily movement, walks, and feeling fresh all day",
+    "goalBuildStrength": "Build Strength",
+    "goalBuildStrengthDesc": "Build steady muscle, posture, and everyday confidence",
+    "goalImproveStamina": "Improve Stamina",
+    "goalImproveStaminaDesc": "Boost heart energy and breeze through busy days",
+    "goalHealthyLifestyle": "Healthy Lifestyle",
+    "goalHealthyLifestyleDesc": "Mindful habits, hydration, and tasty home-style meals",
+    "step5Title": "Pick your current activity level",
+    "step5Subtitle": "Be honest and kind to yourself—we adapt workout intensity around you.",
+    "levelBeginner": "Beginner",
+    "levelBeginnerDesc": "Just starting out or returning gently—short, low-impact sessions",
+    "levelModerate": "Moderate",
+    "levelModerateDesc": "Active a few days a week—balanced mix of strength and cardio",
+    "levelActive": "Active",
+    "levelActiveDesc": "Consistent mover—ready for upbeat, energizing challenges",
+    "welcomeYourNameLabel": "What should we call you?",
+    "welcomeYourNamePlaceholder": "Enter your name (e.g., Amina, Zain, Kabir)",
+    "welcomeNameError": "Please enter a name or nickname before continuing.",
+    "welcomeReadyBadge": "Your Personal FitAdda Space",
+    "welcomeSummaryCountry": "Region",
+    "welcomeSummaryLang": "Language",
+    "welcomeSummaryGoal": "Goal",
+    "welcomeSummaryLevel": "Activity Level",
+    "letsGetStarted": "Let's Get Started"
+  },
+  "dietPrefs": {
+    "badge": "Smart Food Personalization",
+    "title": "Tell us what you enjoy eating",
+    "subtitle": "Countries offer ideas, not rules. Share your diet style, allergies, budget, and cooking vibe so FitAdda suggests meals that truly fit you.",
+    "dietTypeLabel": "Dietary Preference",
+    "dietTypes": {
+      "any": "Flexible (Both Veg & Non-Veg)",
+      "vegetarian": "Vegetarian",
+      "non_vegetarian": "Non-Vegetarian"
+    },
+    "allergiesLabel": "Food Allergies & Sensitivities",
+    "allergiesHint": "Safety always comes first—checked items are automatically excluded.",
+    "allergies": {
+      "nuts": "Peanuts & Tree Nuts",
+      "dairy": "Dairy / Milk",
+      "gluten": "Gluten / Wheat",
+      "eggs": "Eggs",
+      "seafood": "Fish & Seafood",
+      "soy": "Soy"
+    },
+    "customAllergyPlaceholder": "Add other allergy (e.g., sesame, mustard)...",
+    "addBtn": "Add",
+    "dislikesLabel": "Foods You Dislike (Optional)",
+    "dislikesHint": "Tap quick chips or type any ingredient you prefer to skip.",
+    "dislikeSuggestions": ["spicy", "mushroom", "fish", "oats", "paneer", "chickpeas", "eggs", "banana"],
+    "dislikePlaceholder": "Type a food to skip (e.g., okra, coconut)...",
+    "restrictionsLabel": "Religious or Personal Dietary Style (Optional)",
+    "restrictions": {
+      "none": "No Specific Restriction",
+      "halal": "Halal-Friendly",
+      "vegetarian_mindful": "Pure Vegetarian",
+      "no_pork": "No Pork",
+      "lactose_friendly": "Lactose-Friendly"
+    },
+    "budgetLabel": "Everyday Food Budget",
+    "budgets": {
+      "affordable": "Affordable",
+      "moderate": "Moderate",
+      "flexible": "Flexible"
+    },
+    "cookingStyleLabel": "Preferred Cooking Style",
+    "cookingStyles": {
+      "homemade": "Homemade",
+      "quick": "Quick Meals",
+      "both": "Both"
+    },
+    "internationalPrefLabel": "Prefer international / lighter global options over traditional meals",
+    "skipNote": "You can change these anytime in Settings without losing your profile.",
+    "savedToast": "Food preferences updated!"
+  },
+  "dashboard": {
+    "dailyMotivationLabel": "Daily Chai & Cheer",
+    "motivationQuotes": [
+      "Small daily steps beat exhausting sprints every single time.",
+      "Move with joy, nourish with desi goodness, and celebrate every drop of water.",
+      "Consistency is built gently—even 10 mindful minutes today is a win.",
+      "Be proud of showing up for yourself today, aap kamaal ho!"
+    ],
+    "mascotBubble": "Glass full of energy! Have you taken a refreshing sip of water today?",
+    "activitySummaryTitle": "Daily Activity Summary",
+    "caloriesBurned": "Calories Burned",
+    "activeMinutes": "Active Minutes",
+    "workoutsDone": "Workouts Done",
+    "dailyGoalProgress": "Daily Movement Goals",
+    "moveTimeLabel": "Daily Move Time",
+    "burnGoalLabel": "Active Energy",
+    "waterTrackerTitle": "Hydration & MilkMate",
+    "waterTargetText": "{current} of {target} glasses",
+    "addGlass": "+1 Glass",
+    "removeGlass": "-1",
+    "recommendedWorkouts": "Recommended For You",
+    "viewAllWorkouts": "All Workouts",
+    "startSession": "Start Workout",
+    "balancedMealsTitle": "Balanced & Desi Meal Ideas",
+    "viewDietPlan": "Full Diet Plan",
+    "nutritionOverviewTitle": "Nutrition Overview",
+    "weeklyOverviewTitle": "Weekly Activity Overview",
+    "achievementsTitle": "Achievements & Badges",
+    "recentHistoryTitle": "Recent Activity",
+    "unlockedLabel": "Unlocked",
+    "calorieIntake": "Calorie Intake",
+    "dailyTarget": "Daily Target"
+  },
+  "workouts": {
+    "title": "Workout Studio",
+    "subtitle": "Guided studio exercises built around your energy and comfort.",
+    "beginnerFriendlyOnly": "Beginner-Friendly Only",
+    "selectedCount": "{count} selected",
+    "startSelected": "Start Selected Workout",
+    "selectAtLeastOneError": "Please select at least one exercise to begin your session.",
+    "categories": {
+      "All": "All",
+      "Chest": "Chest",
+      "Back": "Back",
+      "Arms": "Arms",
+      "Legs": "Legs",
+      "Cardio": "Cardio",
+      "Full Body": "Full Body"
+    },
+    "difficulties": {
+      "All": "All Levels",
+      "Beginner": "Beginner",
+      "Moderate": "Moderate",
+      "Active": "Active"
+    },
+    "favoritesOnly": "Favorites",
+    "timerModalTitle": "MilkMate Animated Workout Coach",
+    "exerciseOf": "Exercise {current} of {total}",
+    "coachTip": "MilkMate Tip",
+    "stepsLabel": "Guided Steps",
+    "pause": "Pause",
+    "resume": "Resume",
+    "finishExercise": "Next Exercise",
+    "completeWorkout": "Finish Workout",
+    "howDidYouFeel": "How did that session feel?",
+    "moods": {
+      "Energized": "Energized",
+      "Proud": "Proud",
+      "Steady": "Steady",
+      "Refreshed": "Refreshed"
+    },
+    "workoutCompletedTitle": "Shabash! Workout Complete!",
+    "workoutCompletedDesc": "Great job finishing {count} exercises ({calories} kcal) with MilkMate!",
+    "coach": {
+      "badge": "Official FitAdda Coach",
+      "introGreeting": "Let's go! Today we'll do an easy, feel-good workout. I'll guide you step by step!",
+      "introSubtitle": "Take a deep breath, move at your own pace, and follow my movements.",
+      "whatYouLearnLabel": "What you will learn",
+      "durationLabel": "Duration",
+      "levelLabel": "Level",
+      "introStartBtn": "Start Guided Workout",
+      "stepCounter": "Step {current} of {total}",
+      "prevStep": "Previous",
+      "nextStep": "Next Step",
+      "skipNoGuilt": "Next Exercise",
+      "finishWorkout": "Finish Workout",
+      "soundOn": "Sound On",
+      "soundMuted": "Muted",
+      "stepTitles": [
+        "1. Starting Position",
+        "2. Movement Demonstration",
+        "3. Next Movement",
+        "4. Form Mistake to Avoid",
+        "5. Simple Safety Reminder"
+      ],
+      "stepShortLabels": [
+        "1. Ready",
+        "2. Move",
+        "3. Switch",
+        "4. Avoid",
+        "5. Safety"
+      ],
+      "stepPrompts": [
+        "Step 1: Get into this starting position first!",
+        "Step 2: Now do this movement slowly with me!",
+        "Step 3: Smoothly finish or switch sides!",
+        "Step 4: Watch out — avoid this common mistake!",
+        "Step 5: Stay safe, breathe calmly & sip water if needed!"
+      ],
+      "actionTags": [
+        "GET READY",
+        "DO THIS NOW",
+        "NEXT MOVE",
+        "AVOID THIS",
+        "SAFETY TIP"
+      ],
+      "realPoseLabel": "Real Pose Guide",
+      "stepCelebrations": [
+        "Nice! Smooth start—you've got this!",
+        "Shabash! Great rhythm, keep breathing calmly!",
+        "Awesome control! MilkMate is cheering for you!",
+        "Smart catch! Good form protects your joints!",
+        "Superstar! Ready for the next move!"
+      ],
+      "pauseThinking": "Take a breather! Tap Resume whenever you're ready—zero rush.",
+      "waterReminder": "Gentle sip reminder! Take a quick sip of water anytime you want.",
+      "breakReassurance": "Skipping or resting is totally okay—listening to your body is real strength!",
+      "victoryMessage": "Woohoo! We did it together! Drink a glass of water and feel proud of yourself!"
+    },
+    "equipment": {
+      "bodyweight": "Bodyweight / Mat",
+      "dumbbells": "Light Dumbbells",
+      "none": "No Equipment"
+    },
+    "items": {
+      "ex-b1": {
+        "title": "Marching in Place",
+        "desc": "Gentle, low-impact indoor cardio warm-up that wakes up your legs and heart smoothly.",
+        "whatYouLearn": "Rhythmic heel-to-toe stepping, upright posture, and relaxed arm swing.",
+        "guidedSteps": {
+          "start": "Stand tall with feet hip-width apart, shoulders relaxed, and chest open.",
+          "move": "Lift your right knee gently toward waist height while swinging your left arm forward.",
+          "next": "Lower softly through the ball of your foot and switch smoothly to your left knee and right arm.",
+          "mistake": "Avoid stomping your feet hard or hunching your shoulders forward as you march.",
+          "safety": "Keep a soft bend in your knees and hold near a wall or chair if you want extra balance."
+        },
+        "tip": "Play your favorite upbeat tune—marching feels effortless when you smile!"
+      },
+      "ex-b2": {
+        "title": "Arm Circles",
+        "desc": "Refreshing shoulder and upper-arm mobility flow to release stiffness and build light endurance.",
+        "whatYouLearn": "Controlled shoulder rotation without shrugging your neck or locking elbows.",
+        "guidedSteps": {
+          "start": "Stand tall with feet steady and raise both arms straight out to your sides at shoulder height.",
+          "move": "Draw smooth, steady small-to-medium forward circles using your shoulders.",
+          "next": "After 12 smooth forward circles, pause calmly and reverse into backward circles.",
+          "mistake": "Avoid hiking your shoulders up toward your ears or whipping your arms too fast.",
+          "safety": "Lower your arms anytime for a 5-second breather if your shoulders feel warm."
+        },
+        "tip": "Keep your neck long and relaxed—imagine reaching your fingertips softly toward opposite walls."
+      },
+      "ex-b3": {
+        "title": "Wall Push-ups",
+        "desc": "Joint-friendly chest, arm, and core builder performed upright against any sturdy wall.",
+        "whatYouLearn": "Clean plank alignment and smooth chest press mechanics without wrist or floor strain.",
+        "guidedSteps": {
+          "start": "Stand an arm's length from a sturdy wall and place palms flat at chest height, shoulder-width apart.",
+          "move": "Slowly bend your elbows and lean your chest toward the wall for 2 steady seconds.",
+          "next": "Press smoothly through your palms to return upright while breathing out.",
+          "mistake": "Avoid letting your lower back sag inward or flaring your elbows straight out to 90 degrees.",
+          "safety": "Keep elbows angled slightly down (~45°) and make sure your shoes have good grip on the floor."
+        },
+        "tip": "Step closer to the wall for an easier angle, or slightly back when you feel stronger!"
+      },
+      "ex-b4": {
+        "title": "Bodyweight Squats",
+        "desc": "Foundational lower-body movement for strong thighs, glutes, and everyday sitting-to-standing power.",
+        "whatYouLearn": "Hip-hinge sitting mechanics that keep knees aligned and heels grounded.",
+        "guidedSteps": {
+          "start": "Stand with feet slightly wider than shoulder-width, toes turned slightly out, chest lifted.",
+          "move": "Push your hips gently back as if sitting into an invisible chair behind you.",
+          "next": "Press evenly through your heels to stand back up tall and squeeze glutes softly.",
+          "mistake": "Avoid letting your knees cave inward together or lifting your heels off the floor.",
+          "safety": "Only squat as deep as feels comfortable for your knees—even a half-squat builds real strength!"
+        },
+        "tip": "Keep a sturdy chair behind you for confidence—lightly tap and stand right back up."
+      },
+      "ex-b5": {
+        "title": "Standing Knee Raises",
+        "desc": "Gentle standing core and hip-flexor energizer that improves balance without floor crunches.",
+        "whatYouLearn": "Controlled single-leg balance and gentle core engagement while standing upright.",
+        "guidedSteps": {
+          "start": "Stand tall with hands on your waist or raised softly in front at hip height.",
+          "move": "Engage your belly gently and lift your right knee smoothly up toward hip level.",
+          "next": "Place your right foot down softly and alternate by lifting your left knee with steady breath.",
+          "mistake": "Avoid leaning backward with your torso just to force your knee higher.",
+          "safety": "Keep your standing leg softly unlocked and stand near a chair back if needed."
+        },
+        "tip": "Exhale softly each time a knee lifts—your core will engage naturally!"
+      },
+      "ex-b6": {
+        "title": "Gentle Stretching",
+        "desc": "Soothing full-body overhead reach and side-opener to melt away tension and restore calm.",
+        "whatYouLearn": "Mindful deep breathing paired with safe, unhurried spine and shoulder lengthening.",
+        "guidedSteps": {
+          "start": "Stand comfortably with feet hip-width apart and let your shoulders drop away from your ears.",
+          "move": "Inhale deeply as you sweep both arms smoothly overhead and interlace fingers softly.",
+          "next": "Lean gently to your right for 2 calm breaths, return to center, then lean softly to your left.",
+          "mistake": "Avoid holding your breath or bouncing forcefully into a stretch.",
+          "safety": "Stretch only until you feel a pleasant gentle pull—never push into sharp discomfort."
+        },
+        "tip": "Slow, deep breaths tell your body it is safe to relax and lengthen."
+      },
+      "ex-b7": {
+        "title": "Easy Walking",
+        "desc": "Light, steady indoor or hallway walking pace ideal for daily movement, digestion, and mood.",
+        "whatYouLearn": "Natural stride rhythm, relaxed arm swing, and steady conversational breathing.",
+        "guidedSteps": {
+          "start": "Stand upright with eyes looking forward, chin level, and arms relaxed at your sides.",
+          "move": "Begin a smooth, comfortable walking pace stepping softly from heel to toe.",
+          "next": "Let your arms swing naturally with each step while maintaining a relaxed, cheerful rhythm.",
+          "mistake": "Avoid looking down at your feet or taking overly long, stiff strides.",
+          "safety": "Clear any floor clutter first and keep water close by for a refreshing sip afterward."
+        },
+        "tip": "If you can speak comfortably while walking, you are right in the golden feel-good zone!"
+      },
+      "ex-m1": {
+        "title": "Posture Superman & Cobra Flow",
+        "desc": "Opens your chest and strengthens your upper back to melt away desk stiffness.",
+        "whatYouLearn": "Upper-back extension and shoulder-blade activation without straining your neck.",
+        "guidedSteps": {
+          "start": "Lie face down on a comfy mat with legs relaxed and arms extended gently forward.",
+          "move": "Gently lift your chest and hands a few inches off the mat while squeezing shoulder blades.",
+          "next": "Hold for 2 calm seconds, then lower smoothly back to the mat and breathe out.",
+          "mistake": "Avoid jerking your head up toward the ceiling—this pinches the back of your neck.",
+          "safety": "Keep eyes pointed down at your mat and keep movements small and controlled."
+        },
+        "tip": "Keep your neck long and relaxed—quality beats height every time!"
+      },
+      "ex-m2": {
+        "title": "Bicep Curl & Overhead Reach",
+        "desc": "Crisp arm toning combination using light dumbbells or filled water bottles.",
+        "whatYouLearn": "Smooth elbow flexion paired with controlled overhead shoulder pressing.",
+        "guidedSteps": {
+          "start": "Stand tall with feet hip-width apart holding light dumbbells or water bottles by your sides.",
+          "move": "Curl weights slowly toward your shoulders while keeping your upper arms tucked still.",
+          "next": "Press weights softly overhead, then reverse the path slowly back to your sides.",
+          "mistake": "Avoid swinging your lower back or using momentum to heave the weights up.",
+          "safety": "Brace your core gently so your lower back stays neutral during the overhead press."
+        },
+        "tip": "Two filled 500ml water bottles work brilliantly if you do not have dumbbells!"
+      },
+      "ex-m3": {
+        "title": "Joyful Step-Back Lunges",
+        "desc": "Strengthens thighs and glutes while improving everyday balance and leg stability.",
+        "whatYouLearn": "Balanced split-stance lowering with front-knee tracking.",
+        "guidedSteps": {
+          "start": "Stand tall with hands on hips or near a chair back for light balance support.",
+          "move": "Step one foot comfortably back and bend both knees gently toward a 90-degree angle.",
+          "next": "Push smoothly through your front heel to stand tall, then switch legs.",
+          "mistake": "Avoid letting your front knee collapse inward or rushing the step back.",
+          "safety": "Keep steps moderate in length and stop if your knees ever feel strained."
+        },
+        "tip": "Keep your torso proud and steady—hold onto a sturdy chair whenever you want!"
+      },
+      "ex-m4": {
+        "title": "Desi Bhangra Cardio Bounce",
+        "desc": "Upbeat, knee-friendly cardio bounce inspired by lively dhol rhythms.",
+        "whatYouLearn": "Joyful light-impact footwork coordinated with energetic shoulder and arm lifts.",
+        "guidedSteps": {
+          "start": "Stand with knees softly unlocked and a big smile ready to move.",
+          "move": "Bounce lightly on the balls of your feet while raising shoulders rhythmically.",
+          "next": "Sweep both arms cheerfully overhead and clap or pump to your favorite beat.",
+          "mistake": "Avoid landing flat-footed with locked knees.",
+          "safety": "Keep bounces low and springy—you can stay flat-footed and just step-tap anytime!"
+        },
+        "tip": "Put on your favorite upbeat song—cardio flies by when you smile!"
+      },
+      "ex-a1": {
+        "title": "Core & Full-Body Sun Flow",
+        "desc": "Connecting plank, downward stretch, and slow squat for full-body vitality.",
+        "whatYouLearn": "Fluid full-body transitions linking core stability and hip mobility.",
+        "guidedSteps": {
+          "start": "Stand tall at the back of your mat with feet hip-width apart.",
+          "move": "Fold forward softly with bent knees and walk your hands out to a strong high plank.",
+          "next": "Hold calmly for 5 seconds, walk hands back toward feet, and rise through a smooth squat.",
+          "mistake": "Avoid holding your breath during plank or letting hips drop too low.",
+          "safety": "Drop to your knees during plank whenever you want a kinder option."
+        },
+        "tip": "Move at the rhythm of your breath—no rush needed."
+      },
+      "ex-a2": {
+        "title": "Dumbbell Chest Press on Mat",
+        "desc": "Controlled chest and triceps builder designed for steady upper-body progression.",
+        "whatYouLearn": "Supported floor chest press mechanics that protect shoulders from over-stretching.",
+        "guidedSteps": {
+          "start": "Lie comfortably on your back with knees bent, feet flat, holding weights at chest level.",
+          "move": "Press weights smoothly upward over your chest without snapping elbows locked.",
+          "next": "Lower slowly with control for 3 seconds until the backs of your arms lightly tap the mat.",
+          "mistake": "Avoid bouncing your elbows off the floor or flaring arms straight out to your ears.",
+          "safety": "Exhale as you press up and rest weights gently on your thighs before sitting up."
+        },
+        "tip": "Use the mat as a gentle guide—pause softly when your elbows touch down!"
+      },
+      "ex-a3": {
+        "title": "Squat to Knee Lift Rhythm",
+        "desc": "Dynamic lower-body and core combo that builds stamina smoothly.",
+        "whatYouLearn": "Connecting a grounded squat with a rotational standing knee lift.",
+        "guidedSteps": {
+          "start": "Stand with feet shoulder-width apart and hands lightly behind ears or in front of chest.",
+          "move": "Lower smoothly into a comfortable squat with weight centered in your heels.",
+          "next": "Stand tall and lift one knee gently toward your opposite elbow, then alternate sides.",
+          "mistake": "Avoid pulling on your neck with your hands or rounding your upper back.",
+          "safety": "Keep the twist gentle from your ribs and go at a steady, comfortable pace."
+        },
+        "tip": "Sit back as if tapping a chair behind you to keep knees happy!"
+      }
+    }
+  },
+  "diet": {
+    "title": "Diet Plan & Desi Kitchen",
+    "titleLocal": "Diet Plan & Local Kitchen",
+    "subtitle": "Wholesome desi favorites and global balanced plates without strict dieting.",
+    "subtitleLocal": "Wholesome local favorites and balanced plates tailored to your country without strict dieting.",
+    "searchPlaceholder": "Search oats, paneer, daal, chaat, snacks...",
+    "searchPlaceholderLocal": "Search oatmeal, chicken bowl, soup, snacks...",
+    "desiFilter": "Desi Specials Only",
+    "localFilter": "Local Favorites Only",
+    "healthyTipTitle": "FitAdda Desi Kitchen Tip",
+    "healthyTipTitleLocal": "FitAdda Balanced Kitchen Tip",
+    "healthyTipBody": "Pair your favorite daal or curry with 1/2 plate crunchy kachumber salad and homemade mint raita—taste stays 100%, balance improves naturally!",
+    "healthyTipBodyLocal": "Fill half your plate with crisp greens or roasted veggies alongside your favorite protein and whole grains—great flavor stays, balance improves naturally!",
+    "categories": {
+      "All": "All Meals",
+      "Breakfast": "Breakfast",
+      "Lunch": "Lunch",
+      "Dinner": "Dinner",
+      "Snacks": "Snacks"
+    },
+    "plannedToday": "Today's Meal Plan",
+    "inPlan": "In Plan",
+    "addToPlan": "Add to Plan",
+    "removeFromPlan": "Remove",
+    "prepTime": "{min} min prep",
+    "ingredients": "Ingredients",
+    "steps": "Preparation Steps",
+    "mealAddedToast": "Added to your daily meal plan!",
+    "localKitchenTitle": "Your Desi & Local Kitchen",
+    "localKitchenTitleLocal": "Your Local Kitchen",
+    "localKitchenSubtitle": "Smart, balanced meal ideas shaped by your country, safety filters, budget, and cooking style—zero strict rules.",
+    "swapMeal": "Meal Swap",
+    "swapCount": "{count} safe options",
+    "internationalToggle": "International Alternatives",
+    "localPicksMode": "Local & Regional Picks",
+    "fallbackNotice": "Showing universal allergy-friendly options that match your safety filters.",
+    "customizePrefsBtn": "Customize Food Preferences",
+    "whyRecommended": "Matched for you",
+    "reasonCountryMatch": "Local culture favorite",
+    "reasonInternational": "Global alternative",
+    "reasonBudget": "Budget-friendly",
+    "reasonQuickPrep": "Quick prep",
+    "reasonHomemade": "Homemade style",
+    "reasonProteinSupport": "Protein supportive",
+    "cookingStyleHomemade": "Homemade",
+    "cookingStyleQuick": "Quick meal",
+    "chef": {
+      "badge": "Chef MilkMate · Cooking Guide",
+      "tabIngredients": "1. Ingredients",
+      "tabCook": "2. Cook Step-by-Step",
+      "introBubble": "Let's cook {meal} together! Check off your ingredients below first.",
+      "ingredientsChecked": "{done} of {total} ready",
+      "tapToCheck": "Tap each ingredient as you gather it",
+      "startCookingBtn": "Start Cooking with MilkMate",
+      "stepCounter": "Cooking Step {current} of {total}",
+      "stepPromptFirst": "Step 1: Let's start prepping calmly step by step!",
+      "stepPromptMiddle": "Step {step}: Looking and smelling delicious already! Keep going!",
+      "stepPromptLast": "Final Step: Almost ready! Time to plate up and enjoy!",
+      "prevStep": "Previous Step",
+      "nextStep": "Next Step",
+      "finishCookingBtn": "Dish is Ready!",
+      "doneTitle": "Ta-da! {meal} is Ready!",
+      "doneBubble": "Yum! You cooked a nourishing homemade meal! Enjoy every single bite!",
+      "cookAgainBtn": "Review Steps",
+      "allStepsOverview": "All Recipe Steps"
+    },
+    "meals": {
+      "meal-1": {
+        "name": "Masala Oats & Cardamom Chai Bowl",
+        "serving": "1 warm bowl + 1 cup lightly sweetened elaichi chai",
+        "summary": "Comforting savory oats cooked with turmeric, peas, and carrots for lasting morning energy.",
+        "ingredients": ["Rolled oats (50g)", "Mixed carrots & green peas", "Cumin, turmeric & ginger", "1 cup skim milk cardamom chai"],
+        "steps": ["Toast oats and cumin lightly for 2 minutes.", "Add chopped veggies, water, and a pinch of turmeric until creamy.", "Enjoy alongside warm elaichi chai."]
+      },
+      "meal-2": {
+        "name": "Moong Daal Chilla & Mint Chutney",
+        "serving": "2 golden crepes + 2 tbsp green chutney",
+        "summary": "Protein-packed crispy lentil savory pancakes with fresh coriander-mint yogurt dip.",
+        "ingredients": ["Soaked yellow moong daal", "Chopped onions, coriander & green chili", "Pinch of ajwain", "Fresh mint-yogurt chutney"],
+        "steps": ["Blend soaked moong daal with ginger into a smooth batter.", "Cook thin golden chillas on a lightly greased tawa.", "Serve hot with fresh green mint chutney."]
+      },
+      "meal-3": {
+        "name": "Berry Almond Lassi Smoothie Bowl",
+        "serving": "1 chilled bowl (320g)",
+        "summary": "Creamy yogurt lassi swirled with berries, chia seeds, and crunchy roasted almonds.",
+        "ingredients": ["Thick probiotic dahi (yogurt)", "Mixed berries & sliced banana", "1 tbsp chia seeds", "6 crushed roasted almonds"],
+        "steps": ["Whisk dahi with ripe berries until silky smooth.", "Pour into a chilled bowl and sprinkle almonds and chia seeds."]
+      },
+      "meal-4": {
+        "name": "Grilled Paneer Tikka & Daal Thali",
+        "serving": "1 balanced thali (1 roti + bowl daal + tikka)",
+        "summary": "Classic desi comfort balanced with spiced paneer cubes, yellow daal, cucumber raita, and fresh mango.",
+        "ingredients": ["120g grilled paneer tikka", "1 bowl tadka moong daal", "1 whole-wheat phulka roti", "Cucumber mint raita & fresh mango slices"],
+        "steps": ["Marinate paneer cubes in yogurt and mild tikka spices, then pan-sear.", "Plate beside warm daal, fresh phulka, and cooling raita."]
+      },
+      "meal-5": {
+        "name": "Chicken Tikka Quinoa & Kachumber Bowl",
+        "serving": "1 hearty bowl (380g)",
+        "summary": "Smoky tandoori-spiced chicken over fluffy quinoa with crisp lemon kachumber salad.",
+        "ingredients": ["130g tandoori-spiced chicken breast", "1/2 cup cooked quinoa", "Diced cucumber, tomato & red onion", "Lemon juice & chaat masala"],
+        "steps": ["Grill marinated chicken until juicy and lightly charred.", "Toss diced veggies with lemon and chaat masala.", "Layer over warm quinoa."]
+      },
+      "meal-6": {
+        "name": "Chana Masala & Brown Rice Plate",
+        "serving": "1 bowl chana + 3/4 cup steamed rice",
+        "summary": "Hearty chickpea curry simmered in tomatoes and warm spices for steady afternoon stamina.",
+        "ingredients": ["1 cup boiled Kabuli chana", "Tomato-ginger masala base", "3/4 cup steamed brown basmati", "Fresh cilantro & lemon wedge"],
+        "steps": ["Simmer chickpeas in spiced tomato-onion gravy for 10 minutes.", "Serve over steamed basmati with fresh lemon juice."]
+      },
+      "meal-7": {
+        "name": "Herb Baked Salmon & Roasted Veggies",
+        "serving": "1 fillet + 1.5 cups colorful veggies",
+        "summary": "Light omega-rich dinner paired with garlic-roasted sweet potatoes and green beans.",
+        "ingredients": ["140g salmon fillet", "Sweet potato & broccoli florets", "Olive oil, garlic & black pepper", "Fresh lemon slices"],
+        "steps": ["Season salmon and veggies with herbs and olive oil.", "Roast at 200°C for 16 minutes until tender and flaky."]
+      },
+      "meal-8": {
+        "name": "Palak Tofu & Multigrain Roti",
+        "serving": "1 bowl palak + 2 small rotis",
+        "summary": "Velvety iron-rich spinach gravy simmered with firm tofu cubes and gentle garlic tadka.",
+        "ingredients": ["Fresh spinach puree", "120g cubed tofu", "Garlic, cumin & garam masala", "2 multigrain phulka rotis"],
+        "steps": ["Blanch and blend spinach with ginger.", "Simmer gently with garlic spices and fold in golden tofu cubes."]
+      },
+      "meal-9": {
+        "name": "Roasted Makhana & Badam Crunch",
+        "serving": "1 small bowl (35g)",
+        "summary": "Light, crunchy desi evening snack roasted in a touch of ghee and black pepper.",
+        "ingredients": ["Fox nuts (makhana)", "6 whole almonds", "1/2 tsp desi ghee", "Black pepper & pink salt"],
+        "steps": ["Dry-roast makhana and almonds on low flame until crisp.", "Toss with pink salt and cracked pepper."]
+      },
+      "meal-10": {
+        "name": "Fresh Fruit Chaat & Chia Yogurt",
+        "serving": "1 refreshing cup (200g)",
+        "summary": "Juicy apple, pomegranate, and guava tossed with tangy chaat masala and cool yogurt.",
+        "ingredients": ["Diced apple, guava & pomegranate", "2 tbsp Greek yogurt", "Pinch of roasted cumin & chaat masala"],
+        "steps": ["Dice fresh seasonal fruits into bite-sized pieces.", "Toss gently with chaat masala and serve chilled."]
+      }
+    }
+  },
+  "nutrition": {
+    "title": "Nutrition & Hydration",
+    "subtitle": "Track water glasses, nourishing macros, and your daily food diary calmly.",
+    "calorieOverview": "Daily Energy Balance",
+    "macroChartTitle": "Macronutrient Breakdown",
+    "waterCardTitle": "Hydration Progress",
+    "waterAmountText": "{ml} ml logged today",
+    "balancedSuggestions": "Quick Balanced Suggestions",
+    "logFoodTitle": "Add Food to Diary",
+    "foodNameLabel": "Food Name",
+    "foodNamePlaceholder": "e.g., Aloo Paratha with Dahi",
+    "foodNamePlaceholderLocal": "e.g., Berry Oatmeal or Grilled Chicken Bowl",
+    "mealSlotLabel": "Meal Slot",
+    "caloriesLabel": "Calories (kcal)",
+    "addDiaryBtn": "Log Food Entry",
+    "foodNameError": "Please enter a food name before logging.",
+    "caloriesError": "Calories must be 0 or higher.",
+    "diaryTitle": "Today's Food Diary",
+    "emptyDiaryTitle": "No foods logged in this category yet",
+    "emptyDiaryDesc": "Add a meal above or pick one from the Diet Plan to see it here!",
+    "foodLoggedToast": "Food logged to your diary!"
+  },
+  "progress": {
+    "title": "Progress & Milestones",
+    "subtitle": "Look how far your gentle consistency has carried you.",
+    "weeklyActiveTime": "Weekly Active Time",
+    "weeklyEnergyBurned": "Weekly Calories Burned",
+    "milestonesEarned": "Badges Unlocked",
+    "chartTitleWeekly": "Weekly Activity & Calories",
+    "chartTitleMonthly": "Monthly Momentum",
+    "activeMinsLegend": "Active Minutes",
+    "caloriesLegend": "Calories Burned",
+    "goalCompletionTitle": "Goal Completion",
+    "adjustGoals": "Adjust Goals",
+    "saveGoals": "Save Goals",
+    "goalsUpdatedToast": "Goals updated!",
+    "historyTitle": "Workout History",
+    "emptyHistory": "Complete your first workout to start your timeline!",
+    "daysShort": {
+      "Mon": "Mon",
+      "Tue": "Tue",
+      "Wed": "Wed",
+      "Thu": "Thu",
+      "Fri": "Fri",
+      "Sat": "Sat",
+      "Sun": "Sun"
+    },
+    "weeksShort": {
+      "W1": "Week 1",
+      "W2": "Week 2",
+      "W3": "Week 3",
+      "W4": "Week 4"
+    }
+  },
+  "challenges": {
+    "title": "FitAdda Challenges",
+    "subtitle": "Playful daily and weekly goals you can tick off at your own pace.",
+    "thirtyDayTitle": "30-Day Khushi & Movement Calendar",
+    "thirtyDayDesc": "Tap any day you moved, stretched, or cared for yourself. No guilt on rest days!",
+    "percentComplete": "{pct}% Complete",
+    "dailyTitle": "Daily Challenges",
+    "weeklyTitle": "Weekly Challenges",
+    "tapToComplete": "Tap card to mark complete",
+    "celebrated": "Celebrated!",
+    "rewardsShelf": "Achievement Rewards",
+    "items": {
+      "ch-daily-1": {
+        "title": "8 Glasses of Hydration",
+        "reward": "Fresh Glow Badge",
+        "unit": "glasses"
+      },
+      "ch-daily-2": {
+        "title": "15-Minute Evening Walk",
+        "reward": "Evening Breeze Star",
+        "unit": "mins"
+      },
+      "ch-weekly-1": {
+        "title": "3 Joyful Workouts This Week",
+        "reward": "Steady Rhythm Trophy",
+        "unit": "workouts"
+      },
+      "ch-weekly-2": {
+        "title": "90 Active Minutes Total",
+        "reward": "MilkMate Champion",
+        "unit": "mins"
+      }
+    },
+    "badges": {
+      "ach-1": "First Step Spark",
+      "ach-2": "Hydration Hero",
+      "ach-3": "Desi Kitchen Balancer",
+      "ach-4": "Consistency Star",
+      "ach-5": "Bhangra Cardio Joy",
+      "ach-6": "15-Day Milestone"
+    }
+  },
+  "profile": {
+    "title": "My Profile",
+    "subtitle": "Your personal wellness identity and preferences in FitAdda.",
+    "countryLabel": "Country",
+    "languageLabel": "Preferred Language",
+    "goalLabel": "Fitness Goal",
+    "activityLabel": "Activity Level",
+    "mealPrefLabel": "Meal Preference",
+    "statsSnapshot": "Personal Snapshot",
+    "age": "Age",
+    "height": "Height",
+    "weight": "Weight",
+    "editInSettings": "Edit Profile & Preferences in Settings",
+    "foodPrefsSummary": "Food & Kitchen Preferences",
+    "years": "yrs",
+    "cm": "cm",
+    "kg": "kg"
+  },
+  "settings": {
+    "title": "Settings & Preferences",
+    "subtitle": "Customize language, country greeting, theme, notifications, and profile details.",
+    "languageSection": "Language Preferences",
+    "languageDesc": "Switching language translates every page, label, exercise, and meal immediately.",
+    "countrySection": "Country & Cultural Greeting",
+    "countryDesc": "Updates your greeting style without changing your selected language.",
+    "themeSection": "Theme Appearance",
+    "themeLightDesc": "Soft lavender, crisp white, and warm charcoal",
+    "themeDarkDesc": "Clean, simple dark charcoal with crisp white text",
+    "notificationsSection": "Notification Settings",
+    "notifSupportive": "Supportive Morning Check-in",
+    "notifWater": "Hydration Reminders",
+    "notifCelebration": "Celebration Popups",
+    "notifDigest": "Weekly Progress Summary",
+    "editProfileSection": "Edit Profile Information",
+    "displayNameLabel": "Display Name",
+    "calorieGuideLabel": "Daily Calorie Guide (kcal)",
+    "waterTargetLabel": "Daily Water Target (glasses)",
+    "moveTargetLabel": "Daily Move Target (mins)",
+    "profileSavedToast": "Profile and preferences saved!",
+    "nameValidationError": "Display name cannot be empty.",
+    "accountActions": "Onboarding & Demo Data",
+    "replayBtn": "Replay Onboarding Flow",
+    "resetBtn": "Reset Demo Progress",
+    "resetToast": "Demo data refreshed cleanly!"
+  }
+}

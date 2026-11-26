@@ -1,0 +1,771 @@
+{
+  "brand": {
+    "name": "FitAdda",
+    "tagline": "Sehat bhi, Khushi bhi. Apne andaaz mein!",
+    "subTagline": "Sehat aur khushi, bilkul aapke andaaz mein",
+    "mascotName": "MilkMate"
+  },
+  "common": {
+    "next": "Aage Barhein",
+    "back": "Wapas",
+    "continue": "Jaari Rakhein",
+    "save": "Save Karein",
+    "cancel": "Cancel Karein",
+    "close": "Band Karein",
+    "search": "Workouts, desi khane ya tips search karein...",
+    "noResults": "Koi result nahi mila",
+    "tryAnotherSearch": "Koi aur lafz likhein ya filter hata dein.",
+    "clearFilters": "Filters Hatayein",
+    "loading": "Aapka FitAdda tayyar ho raha hai...",
+    "minutes": "mins",
+    "seconds": "sec",
+    "kcal": "kcal",
+    "glasses": "glass",
+    "days": "din",
+    "sessions": "sessions",
+    "protein": "Protein",
+    "carbs": "Carbs",
+    "fats": "Fats",
+    "fiber": "Fiber",
+    "sets": "Sets",
+    "reps": "Reps",
+    "rest": "Aaraam",
+    "all": "Sab",
+    "today": "Aaj",
+    "friend": "Dost",
+    "stepOf": "Qadam {current} / {total}",
+    "completed": "Mukammal",
+    "start": "Shuru Karein",
+    "add": "Shamil Karein",
+    "remove": "Hatayein",
+    "viewRecipe": "Recipe Dekhein",
+    "logMeal": "Diary Mein Likhein",
+    "weekly": "Haftawar",
+    "monthly": "Mahana",
+    "light": "Light Mode",
+    "dark": "Dark Mode",
+    "yes": "Haan",
+    "no": "Nahi",
+    "justNow": "Abhi abhi"
+  },
+  "nav": {
+    "home": "Home",
+    "workouts": "Workouts",
+    "dietPlan": "Diet Plan",
+    "nutrition": "Nutrition",
+    "progress": "Progress",
+    "challenges": "Challenges",
+    "profile": "Profile",
+    "settings": "Settings",
+    "notifications": "Paighamaat",
+    "markAllRead": "Sab parh liye",
+    "noNotifications": "Sab update hai! Paani peena mat bhoolna.",
+    "replayOnboarding": "Shuru Se Dekhein",
+    "openMenu": "Menu kholein",
+    "closeMenu": "Menu band karein",
+    "searchNoMatch": "Is search se koi workout ya khana nahi mila."
+  },
+  "notifications": {
+    "n1Title": "MilkMate kehta hai: Paani piyo dost!",
+    "n1Body": "Aap aaj ke paani ke goal ke aadhe raste par hain—ek glass paani ya lassi pee lein.",
+    "n2Title": "Desi Lunch Idea Tayyar Hai",
+    "n2Body": "Balanced protein ke liye Diet Plan mein Grilled Paneer & Daal Thali zaroor dekhein.",
+    "n3Title": "Zabardast Consistency!",
+    "n3Body": "Koi pressure nahi—aaj ki 15 minute ki halki stretching bhi count hoti hai."
+  },
+  "onboarding": {
+    "step1Badge": "FitAdda mein khush aamdeed",
+    "step1Title": "Apni pasandeeda zubaan chunein",
+    "step1Subtitle": "Har button, workout guide, recipe aur greeting turant aapki zubaan mein badal jayegi.",
+    "langEnDesc": "Saaf aur aasan international English",
+    "langUrDesc": "خوبصورت اردو رسم الخط اور دائیں سے بائیں ترتیب",
+    "langRomanDesc": "Apna desi andaaz — English letters mein aasan Urdu",
+    "step2Title": "Aap kis mulk se hain?",
+    "step2Subtitle": "Hum aapke mulk ke hisaab se salaam dikhayenge, lekin aapki zubaan wahi rahegi.",
+    "countrySearchPlaceholder": "Mulk search karein (maslan Pakistan, India, UAE, UK, Japan)...",
+    "countryEmpty": "Is naam ka koi mulk nahi mila. Kuch aur try karein!",
+    "countryRequiredError": "Meharbani farma kar aage barhne se pehle mulk chunein.",
+    "step3Title": "Chaliye aapka safar khaas banate hain!",
+    "step3Subtitle": "Apne hisaab se personal fitness style chunein.",
+    "genderWomen": "Women (Khawateen)",
+    "genderWomenDesc": "Aapke liye khaas studio workouts, mobility aur balanced khane",
+    "genderMen": "Men (Mard Hazrat)",
+    "genderMenDesc": "Aapke liye taqat, stamina routines aur protein-rich desi meals",
+    "step4Title": "Aap kya hasil karna chahte hain?",
+    "step4Subtitle": "Sehat, energy, taqat aur khushi par dhyaan dein—koi pressure ya tension nahi.",
+    "goalStayActive": "Active Rahein",
+    "goalStayActiveDesc": "Rozana halki movement, walk aur din bhar fresh rehna",
+    "goalBuildStrength": "Taqat Banayein",
+    "goalBuildStrengthDesc": "Mazboot muscles, behtar posture aur roz ka confidence",
+    "goalImproveStamina": "Stamina Barhayein",
+    "goalImproveStaminaDesc": "Dil ki energy barhayein aur thakan ko bye kahein",
+    "goalHealthyLifestyle": "Healthy Lifestyle",
+    "goalHealthyLifestyleDesc": "Achi aadaat, paani ka khayal aur ghar ka tasty khana",
+    "step5Title": "Apni abhi ki activity level chunein",
+    "step5Subtitle": "Apne sath pyaar aur sachai rakhein—hum workout intensity aapke hisaab se set karenge.",
+    "levelBeginner": "Beginner (Shuruati)",
+    "levelBeginnerDesc": "Abhi shuru kar rahe hain—aasan, chhote aur sukoon wale sessions",
+    "levelModerate": "Moderate (Darmiyana)",
+    "levelModerateDesc": "Hafte mein kuch din active—strength aur cardio ka zabardast mix",
+    "levelActive": "Active (Tez)",
+    "levelActiveDesc": "Rozana movement karne wale—mazedaar challenges ke liye tayyar",
+    "welcomeYourNameLabel": "Hum aapko kis naam se bulayein?",
+    "welcomeYourNamePlaceholder": "Apna naam likhein (maslan Amina, Zain, Kabir)",
+    "welcomeNameError": "Aage barhne se pehle apna naam ya nickname zaroor likhein.",
+    "welcomeReadyBadge": "Aapka Apna FitAdda Tayyar Hai",
+    "welcomeSummaryCountry": "Mulk",
+    "welcomeSummaryLang": "Zubaan",
+    "welcomeSummaryGoal": "Maqsad",
+    "welcomeSummaryLevel": "Activity Level",
+    "letsGetStarted": "Chalo Shuru Karein!"
+  },
+  "dietPrefs": {
+    "badge": "Smart Food Personalization",
+    "title": "Batayein aapko kya khana pasand hai",
+    "subtitle": "Mulk sirf ideas deta hai, koi pabandi nahi. Apni diet choice, allergies, budget aur cooking style share karein taake FitAdda bilkul aapke hisaab se khane bataye.",
+    "dietTypeLabel": "Khane Ki Qism",
+    "dietTypes": {
+      "any": "Dono (Veg aur Non-Veg)",
+      "vegetarian": "Sirf Vegetarian",
+      "non_vegetarian": "Non-Vegetarian"
+    },
+    "allergiesLabel": "Food Allergies & Sensitivities",
+    "allergiesHint": "Aapki safety sab se pehle hai—chune hue ingredients automatically hata diye jayenge.",
+    "allergies": {
+      "nuts": "Moongphali & Nuts",
+      "dairy": "Doodh / Dairy",
+      "gluten": "Gluten / Gehun",
+      "eggs": "Ande (Eggs)",
+      "seafood": "Machhli & Seafood",
+      "soy": "Soy"
+    },
+    "customAllergyPlaceholder": "Koi aur allergy likhein (maslan til, sarson)...",
+    "addBtn": "Shamil Karein",
+    "dislikesLabel": "Na-pasandeeda Khane (Optional)",
+    "dislikesHint": "Chips par tap karein ya koi bhi cheez likhein jo aapko nahi pasand.",
+    "dislikeSuggestions": ["spicy", "mushroom", "fish", "oats", "paneer", "chickpeas", "eggs", "banana"],
+    "dislikePlaceholder": "Jo khana nahi pasand likhein (maslan bhindi, nariyal)...",
+    "restrictionsLabel": "Mazhabi ya Zaati Dietary Style (Optional)",
+    "restrictions": {
+      "none": "Koi Khaas Pabandi Nahi",
+      "halal": "Halal-Friendly",
+      "vegetarian_mindful": "Pure Vegetarian",
+      "no_pork": "No Pork",
+      "lactose_friendly": "Lactose-Friendly"
+    },
+    "budgetLabel": "Rozana Food Budget",
+    "budgets": {
+      "affordable": "Kam Kharch (Affordable)",
+      "moderate": "Darmiyana (Moderate)",
+      "flexible": "Flexible"
+    },
+    "cookingStyleLabel": "Pakaney Ka Pasandeeda Andaaz",
+    "cookingStyles": {
+      "homemade": "Ghar Ka Khana",
+      "quick": "Jhatpat Meals",
+      "both": "Dono"
+    },
+    "internationalPrefLabel": "Desi ke bajaye international ya halke global options zyada dikhayein",
+    "skipNote": "Aap profile khoye baghair Settings mein kabhi bhi yeh preferences badal sakte hain.",
+    "savedToast": "Khane ki pasand save ho gayi!"
+  },
+  "dashboard": {
+    "dailyMotivationLabel": "Aaj Ki Chai & Cheer",
+    "motivationQuotes": [
+      "Roz ke chhote qadam thaka dene wali daur se hamesha behtar hote hain.",
+      "Khushi se move karein, ghar ka acha khana khayein aur paani ka har glass celebrate karein.",
+      "Consistency pyaar se banti hai—aaj ke 10 minute bhi ek bari jeet hain.",
+      "Aaj apne liye waqt nikalne par fakhr karein, aap kamaal ho!"
+    ],
+    "mascotBubble": "Glass energy se full hai! Kya aapne aaj taza paani piya?",
+    "activitySummaryTitle": "Aaj Ki Activity Summary",
+    "caloriesBurned": "Calories Burn",
+    "activeMinutes": "Active Minutes",
+    "workoutsDone": "Workouts Poore",
+    "dailyGoalProgress": "Rozana Movement Goals",
+    "moveTimeLabel": "Rozana Move Time",
+    "burnGoalLabel": "Active Energy",
+    "waterTrackerTitle": "Paani & MilkMate",
+    "waterTargetText": "{target} mein se {current} glass",
+    "addGlass": "+1 Glass",
+    "removeGlass": "-1",
+    "recommendedWorkouts": "Aapke Liye Best Workouts",
+    "viewAllWorkouts": "Sab Workouts",
+    "startSession": "Workout Shuru Karein",
+    "balancedMealsTitle": "Balanced & Desi Khane",
+    "viewDietPlan": "Poora Diet Plan",
+    "nutritionOverviewTitle": "Nutrition Ka Jaiza",
+    "weeklyOverviewTitle": "Haftawar Activity Chart",
+    "achievementsTitle": "Kamyabiyan & Badges",
+    "recentHistoryTitle": "Haaliya Activity",
+    "unlockedLabel": "Hasil Shuda",
+    "calorieIntake": "Khane Ki Calories",
+    "dailyTarget": "Rozana Target"
+  },
+  "workouts": {
+    "title": "Workout Studio",
+    "subtitle": "Guided studio exercises jo aapki energy aur sukoon ke hisaab se hain.",
+    "beginnerFriendlyOnly": "Sirf Beginner-Friendly",
+    "selectedCount": "{count} chune gaye",
+    "startSelected": "Chune Hue Workout Shuru Karein",
+    "selectAtLeastOneError": "Session shuru karne ke liye kam az kam ek exercise select karein.",
+    "categories": {
+      "All": "Sab",
+      "Chest": "Chest",
+      "Back": "Back",
+      "Arms": "Arms",
+      "Legs": "Legs",
+      "Cardio": "Cardio",
+      "Full Body": "Full Body"
+    },
+    "difficulties": {
+      "All": "Sab Levels",
+      "Beginner": "Beginner",
+      "Moderate": "Moderate",
+      "Active": "Active"
+    },
+    "favoritesOnly": "Pasandeeda",
+    "timerModalTitle": "MilkMate Animated Workout Coach",
+    "exerciseOf": "Exercise {current} / {total}",
+    "coachTip": "MilkMate Ki Tip",
+    "stepsLabel": "Step-by-Step Guide",
+    "pause": "Rokein",
+    "resume": "Chalayein",
+    "finishExercise": "Agli Exercise",
+    "completeWorkout": "Workout Mukammal Karein",
+    "howDidYouFeel": "Ye session kaisa laga?",
+    "moods": {
+      "Energized": "Tawana",
+      "Proud": "Fakhr Hua",
+      "Steady": "Sukoon Bhara",
+      "Refreshed": "Taaza Dam"
+    },
+    "workoutCompletedTitle": "Shabash! Workout Mukammal!",
+    "workoutCompletedDesc": "MilkMate ke sath {count} exercises ({calories} kcal) poori karne par mubarakbad!",
+    "coach": {
+      "badge": "FitAdda Official Coach",
+      "introGreeting": "Chalo ji! Aaj hum ek easy workout karenge. Main tumhein step by step guide karunga!",
+      "introSubtitle": "Gehri saans lein, apni speed se chalein aur mere sath move karein.",
+      "whatYouLearnLabel": "Aaj aap kya seekhenge",
+      "durationLabel": "Waqt",
+      "levelLabel": "Level",
+      "introStartBtn": "Guided Workout Shuru Karein",
+      "stepCounter": "Qadam {current} / {total}",
+      "prevStep": "Pichla",
+      "nextStep": "Agla Qadam",
+      "skipNoGuilt": "Agli Exercise",
+      "finishWorkout": "Workout Khatam Karein",
+      "soundOn": "Sound On",
+      "soundMuted": "Muted",
+      "stepTitles": [
+        "1. Starting Position",
+        "2. Movement Demo",
+        "3. Agli Movement",
+        "4. Form Mistake Se Bachein",
+        "5. Aasan Safety Tip"
+      ],
+      "stepShortLabels": [
+        "1. Tayyari",
+        "2. Move",
+        "3. Badlein",
+        "4. Ghalati",
+        "5. Safety"
+      ],
+      "stepPrompts": [
+        "Qadam 1: Pehle bilkul aise seedhe aur tayyar ho jayein!",
+        "Qadam 2: Ab mere sath aahista se ye movement karein!",
+        "Qadam 3: Ab aaram se agla hissa ya doosri side karein!",
+        "Qadam 4: Khayal karein! Ye ghalati bilkul mat karein!",
+        "Qadam 5: Safe rahein, aaram se saans lein aur chahein to paani piyein!"
+      ],
+      "actionTags": [
+        "TAYYAR HON",
+        "AB YE KAREIN",
+        "AGLA MOVE",
+        "YE MAT KAREIN",
+        "SAFETY TIP"
+      ],
+      "realPoseLabel": "Asal Pose Tasveer",
+      "stepCelebrations": [
+        "Wah! Zabardast shuruat—aap bilkul sahi ja rahe hain!",
+        "Shabash! Mast rhythm hai, saans aaram se lete rahein!",
+        "Kamaal control! MilkMate aapke liye cheer kar raha hai!",
+        "Shabash! Sahi form aapke ghutno aur jodon ko safe rakhti hai!",
+        "Superstar! Agli movement ke liye bilkul tayyar!"
+      ],
+      "pauseThinking": "Thora break lein! Jab tayyar hon Resume dabayein—koi jaldi nahi.",
+      "waterReminder": "Pyara sa paani reminder! Jab dil kare ek ghoont taza paani pee lein.",
+      "breakReassurance": "Rest lena ya koi exercise skip karna bilkul theek hai—apne jism ki sunna asli taqat hai!",
+      "victoryMessage": "Wah ji wah! Humne mil kar kar dikhaya! Ek glass paani piyein aur khud par fakhr karein!"
+    },
+    "equipment": {
+      "bodyweight": "Bodyweight / Mat",
+      "dumbbells": "Halke Dumbbells",
+      "none": "Bina Saman Ke"
+    },
+    "items": {
+      "ex-b1": {
+        "title": "Marching in Place",
+        "desc": "Ghar ke andar aasan aur ghutno ke liye soft cardio warm-up jo body ko jagata hai.",
+        "whatYouLearn": "Rhythm mein qadam uthana, seedha posture aur relaxed arms.",
+        "guidedSteps": {
+          "start": "Paon barabar khol kar seedhe khare hon, kandhe bilkul relax rakhein.",
+          "move": "Daayan ghutna kamar tak halka sa uthayein aur baayan haath aage hilayein.",
+          "next": "Ab paon narmi se neeche rakhein aur baayan ghutna aur daayan haath badlein.",
+          "mistake": "Zameen par zor se paon marne ya kandhe aage jhukane se bachein.",
+          "safety": "Ghutno ko halka narm rakhein aur chahein to deewar ya kursi ke paas khare hon."
+        },
+        "tip": "Apna pasandeeda gaana lagayein—muskurate hue marching bohot aasan lagti hai!"
+      },
+      "ex-b2": {
+        "title": "Arm Circles",
+        "desc": "Kandhon aur baazuon ki thakan door karne ke liye halki mobility exercise.",
+        "whatYouLearn": "Gardan par zor dale bina kandhon ko gol ghumana.",
+        "guidedSteps": {
+          "start": "Seedhe khare ho kar dono baazu kandhon ke barabar sides mein phelayein.",
+          "move": "Kandhon se aage ki taraf gol aur smooth circles banayein.",
+          "next": "12 circles ke baad thora rukein aur ab peeche ki taraf gol ghumayein.",
+          "mistake": "Kandhon ko kaanon tak upar uthane ya bohot tez ghumane se bachein.",
+          "safety": "Agar baazu thak jayein to kabhi bhi 5 second neeche rakh kar aaraam karein."
+        },
+        "tip": "Gardan ko lamba aur sukoon mein rakhein aur aasan saans lein."
+      },
+      "ex-b3": {
+        "title": "Wall Push-ups",
+        "desc": "Kalaiyon par bojh dale bina seene aur baazuon ko mazboot banane ka aasan tariqa.",
+        "whatYouLearn": "Deewar ke sahare seedhe posture ke sath safe push-up technique.",
+        "guidedSteps": {
+          "start": "Mazboot deewar se ek baazu ke faasle par khare hon aur hatheliyan seene ke samne rakhein.",
+          "move": "Kohniyan aahista se mod kar seena 2 second mein deewar ke paas layein.",
+          "next": "Saans bahar nikalte hue haathon se push karke wapas seedhe hon.",
+          "mistake": "Kamar ko beech se andar jhukane ya kohniyan zyada bahar phelane se bachein.",
+          "safety": "Tasalli kar lein ke paon phisal nahi rahe aur movement control mein rakhein."
+        },
+        "tip": "Aasani ke liye deewar ke thora qareeb aayein, ya taqat barhne par thora peeche haten!"
+      },
+      "ex-b4": {
+        "title": "Bodyweight Squats",
+        "desc": "Taangon aur thighs ko mazboot banane wali sab se aham rozmarra exercise.",
+        "whatYouLearn": "Aeri zameen par tika kar kursi par baithne jaisa sahi squat posture.",
+        "guidedSteps": {
+          "start": "Paon kandhon se thora zyada khol kar seena seedha rakhein.",
+          "move": "Hips ko peeche dhakelen jaise peeche kisi kursi par baith rahe hon.",
+          "next": "Aeriyon se zor de kar aaram se wapas seedhe khare ho jayein.",
+          "mistake": "Ghutno ko andar ki taraf milne ya aeriyan zameen se uthane se bachein.",
+          "safety": "Sirf itna neeche jayein jitna ghutno ko sukoon lage—half squat bhi zabardast hai!"
+        },
+        "tip": "Confidence ke liye peeche ek kursi rakh lein aur halka touch karke wapas uthein."
+      },
+      "ex-b5": {
+        "title": "Standing Knee Raises",
+        "desc": "Zameen par lete baghair core aur balance behtar karne ki aasan exercise.",
+        "whatYouLearn": "Khare reh kar balance rakhna aur pet ke muscles ka halka istemal.",
+        "guidedSteps": {
+          "start": "Seedhe khare hon aur haath kamar par ya samne rakhein.",
+          "move": "Pet ko halka tight karke daayan ghutna kamar ki height tak uthayein.",
+          "next": "Paon narmi se neeche rakhein aur ab baayan ghutna upar uthayein.",
+          "mistake": "Ghutna upar karne ke liye kamar peeche jhukane se bachein.",
+          "safety": "Extra balance ke liye kursi ke peeche khare ho sakte hain."
+        },
+        "tip": "Jab ghutna upar aaye to halka sa saans bahar chhoren!"
+      },
+      "ex-b6": {
+        "title": "Gentle Stretching",
+        "desc": "Thakan utarne aur jism mein taazgi lane ke liye poori body ka narm khichao.",
+        "whatYouLearn": "Gehri saanson ke sath kandhon aur kamar ko aaram se kholna.",
+        "guidedSteps": {
+          "start": "Paon barabar khol kar khare hon aur kandhe dheele chhor dein.",
+          "move": "Gehri saans lete hue dono baazu sar ke upar le ja kar haath milayein.",
+          "next": "Daayein taraf halka sa jhukein, 2 saans rukein, phir baayein taraf jhukein.",
+          "mistake": "Saans rokne ya jhatke se khinchne se bachein.",
+          "safety": "Sirf itna stretch karein jahan maza aaye—dard tak kabhi na jayein."
+        },
+        "tip": "Aahista saans lena body ko relax aur flexible hone ka ishara deta hai."
+      },
+      "ex-b7": {
+        "title": "Easy Walking",
+        "desc": "Rozana ki movement, hazme aur fresh mood ke liye aasan indoor walking.",
+        "whatYouLearn": "Natural chalne ki raftaar, seedhi nazar aur relaxed arms.",
+        "guidedSteps": {
+          "start": "Nazar samne rakh kar seedhe khare hon aur baazu dheele chhor dein.",
+          "move": "Aeri se panje tak aaramdayak speed mein chalna shuru karein.",
+          "next": "Har qadam ke sath baazuon ko aasan andaaz mein hilne dein.",
+          "mistake": "Neeche paon ki taraf dekh kar gardan jhukane se bachein.",
+          "safety": "Rasta saaf rakhein aur baad mein peene ke liye paani paas rakhein."
+        },
+        "tip": "Agar aap chalte hue aaram se baat kar sakte hain to aap bilkul sahi speed par hain!"
+      },
+      "ex-m1": {
+        "title": "Posture Superman & Cobra Flow",
+        "desc": "Seene ko kholta hai aur chair par baithne ki thakan aur kamar dard door karta hai.",
+        "whatYouLearn": "Gardan par zor dale baghair kamar aur kandhe mazboot karna.",
+        "guidedSteps": {
+          "start": "Mat par pet ke bal letein aur baazu aage phelayein.",
+          "move": "Seena aur haath halke se upar uthayein aur kandhe peeche le jayein.",
+          "next": "2 second ruk kar narmi se wapas neeche aayein.",
+          "mistake": "Sar ko jhatke se upar uthane se bachein.",
+          "safety": "Nazrein neeche mat par rakhein aur movement control mein rakhein."
+        },
+        "tip": "Gardan ko aasan rakhein—height se zyada sahi tariqa zaroori hai!"
+      },
+      "ex-m2": {
+        "title": "Bicep Curl & Overhead Reach",
+        "desc": "Halke dumbbells ya paani ki bottles ke sath baazuon ko strong banane wali exercise.",
+        "whatYouLearn": "Kamar hilaye baghair smooth bicep curl aur overhead press.",
+        "guidedSteps": {
+          "start": "Paon barabar khol kar halke weights ke sath seedhe khare hon.",
+          "move": "Weight ko aaram se kandhon tak layein.",
+          "next": "Ab sar ke upar press karein aur wapas aahista neeche layein.",
+          "mistake": "Weight uthane ke liye kamar ko jhatka dene se bachein.",
+          "safety": "Upar uthate waqt pet halka sa tight rakhein."
+        },
+        "tip": "Agar dumbbells na hon to 500ml ki paani ki bottles best kaam karti hain!"
+      },
+      "ex-m3": {
+        "title": "Khushgawar Step-Back Lunges",
+        "desc": "Taangon ko mazboot banati hai aur rozana ka balance behtar karti hai.",
+        "whatYouLearn": "Balance ke sath peeche qadam rakh kar dono ghutne modna.",
+        "guidedSteps": {
+          "start": "Kamar par haath rakh kar seedhe khare hon.",
+          "move": "Ek paon peeche le ja kar dono ghutno ko halke se moden.",
+          "next": "Aage wali aeri se zor de kar khare hon aur side badlein.",
+          "mistake": "Aage wale ghutne ko andar jhukne se bachein.",
+          "safety": "Extra balance ke liye kisi mazboot kursi ka sahara le sakte hain."
+        },
+        "tip": "Seena seedha rakhein aur har qadam aaram se uthayein!"
+      },
+      "ex-m4": {
+        "title": "Desi Bhangra Cardio Bounce",
+        "desc": "Dhol ki beat jaisa mazedar cardio jo ghutno ke liye bhi bilkul soft hai.",
+        "whatYouLearn": "Halke bounce ke sath kandhon aur haathon ka energetic rhythm.",
+        "guidedSteps": {
+          "start": "Narm ghutno aur pyaari muskurahat ke sath khare hon.",
+          "move": "Panjon par halka sa bounce karte hue kandhe hilayein.",
+          "next": "Dono baazu khushi se upar uthayein aur saans barqarar rakhein.",
+          "mistake": "Sakht ghutno ke sath bhari qadam rakhne se bachein.",
+          "safety": "Bounce nahi karna to bas step-tap karke bhi maza le sakte hain!"
+        },
+        "tip": "Apna pasandeeda gaana chalayein—muskurate hue cardio bohot jaldi ho jata hai!"
+      },
+      "ex-a1": {
+        "title": "Sun Flow & Full-Body Stretch",
+        "desc": "Poore jism mein taazgi lane ke liye plank aur squat ka khoobsurat combo.",
+        "whatYouLearn": "Saans ke sath plank aur squat ka smooth flow.",
+        "guidedSteps": {
+          "start": "Mat ke peeche seedhe khare ho jayein.",
+          "move": "Neeche jhuk kar haathon se high plank mein jayein.",
+          "next": "5 second ruk kar wapas aayein aur squat se aahista khare hon.",
+          "mistake": "Plank mein saans rokne ya kamar neeche girane se bachein.",
+          "safety": "Aasani ke liye ghutno par plank kar sakte hain."
+        },
+        "tip": "Apni saans ki raftaar se chalein—koi jaldi nahi."
+      },
+      "ex-a2": {
+        "title": "Mat Par Dumbbell Chest Press",
+        "desc": "Seene aur baazuon ki taqat ke liye sukoon bhari exercise.",
+        "whatYouLearn": "Mat ke support ke sath safe chest press.",
+        "guidedSteps": {
+          "start": "Ghutne mod kar kamar ke bal mat par letein.",
+          "move": "Weights ko seene ke upar seedha press karein.",
+          "next": "3 second mein aahista neeche layein jab tak baazu mat ko chhoo lein.",
+          "mistake": "Kohniyan zameen par patakhne se bachein.",
+          "safety": "Upar uthate waqt aaram se saans bahar nikalein."
+        },
+        "tip": "Mat ko gentle guide samjhein—halka touch karke wapas press karein!"
+      },
+      "ex-a3": {
+        "title": "Squat & Knee Lift Rhythm",
+        "desc": "Taangon aur core ke liye zabardast stamina combo.",
+        "whatYouLearn": "Squat ke baad samne wali kohni ki taraf ghutna uthana.",
+        "guidedSteps": {
+          "start": "Paon barabar khol kar seena seedha rakhein.",
+          "move": "Aeriyon par wazan rakh kar aaramdayak squat mein baithein.",
+          "next": "Uthte hue ek ghutna samne wali kohni ki taraf uthayein aur side badlein.",
+          "mistake": "Haathon se gardan khinchne se bachein.",
+          "safety": "Kamar ko narmi se ghumayein aur comfortable speed rakhein."
+        },
+        "tip": "Ghutno ko khush rakhne ke liye peeche kursi par baithne jaisa andaaz rakhein!"
+      }
+    }
+  },
+  "diet": {
+    "title": "Diet Plan & Desi Kitchen",
+    "titleLocal": "Diet Plan & Local Kitchen",
+    "subtitle": "Bina kisi sakht parhez ke ghar ke tasty desi aur balanced khane.",
+    "subtitleLocal": "Bina kisi sakht parhez ke aapke mulk ke mutabiq balanced aur healthy khane.",
+    "searchPlaceholder": "Oats, paneer, daal, chaat ya snacks search karein...",
+    "searchPlaceholderLocal": "Oatmeal, chicken bowl, soup ya snacks search karein...",
+    "desiFilter": "Sirf Desi Specials",
+    "localFilter": "Sirf Local Favorites",
+    "healthyTipTitle": "FitAdda Desi Kitchen Tip",
+    "healthyTipTitleLocal": "FitAdda Balanced Kitchen Tip",
+    "healthyTipBody": "Apni pasandeeda daal ya salan ke saath aadhi plate kachumber salad aur ghar ka pudine wala raita zaroor rakhein—zaiqa 100%, balance zabardast!",
+    "healthyTipBodyLocal": "Apni pasandeeda protein aur grains ke saath aadhi plate taza sabziyan ya salad zaroor rakhein—zaiqa 100%, balance zabardast!",
+    "categories": {
+      "All": "Sab Khane",
+      "Breakfast": "Nashta",
+      "Lunch": "Dopahar Ka Khana",
+      "Dinner": "Raat Ka Khana",
+      "Snacks": "Halke Snacks"
+    },
+    "plannedToday": "Aaj Ka Meal Plan",
+    "inPlan": "Plan Mein Hai",
+    "addToPlan": "Plan Mein Jorein",
+    "removeFromPlan": "Hatayein",
+    "prepTime": "{min} min tayyari",
+    "ingredients": "Ajzaa (Ingredients)",
+    "steps": "Banane Ka Tariqa",
+    "mealAddedToast": "Aaj ke diet plan mein shamil ho gaya!",
+    "localKitchenTitle": "Aapka Desi aur Local Kitchen",
+    "localKitchenTitleLocal": "Aapka Local Kitchen",
+    "localKitchenSubtitle": "Aapke mulk, allergy safety, budget aur cooking style ke mutabiq smart khane—bina kisi sakht pabandi ke.",
+    "swapMeal": "Khana Badlein",
+    "swapCount": "{count} safe options",
+    "internationalToggle": "International Alternatives",
+    "localPicksMode": "Local & Regional Picks",
+    "fallbackNotice": "Aapki safety filters ke hisaab se universal allergy-safe options dikhaye ja rahe hain.",
+    "customizePrefsBtn": "Food Preferences Badlein",
+    "whyRecommended": "Aapke liye matched",
+    "reasonCountryMatch": "Local culture favorite",
+    "reasonInternational": "Global alternative",
+    "reasonBudget": "Budget-friendly",
+    "reasonQuickPrep": "Jhatpat tayyari",
+    "reasonHomemade": "Ghar jaisa zaiqa",
+    "reasonProteinSupport": "Protein supportive",
+    "cookingStyleHomemade": "Ghar ka khana",
+    "cookingStyleQuick": "Quick meal",
+    "chef": {
+      "badge": "Chef MilkMate · Cooking Guide",
+      "tabIngredients": "1. Ajzaa Ready",
+      "tabCook": "2. Step-by-Step Pakayein",
+      "introBubble": "Chalo mil kar {meal} pakate hain! Pehle neeche diye ajzaa check kar lein.",
+      "ingredientsChecked": "{done} / {total} ready",
+      "tapToCheck": "Jo cheezein tayyar hain un par tap karein",
+      "startCookingBtn": "MilkMate ke sath Pakana Shuru Karein",
+      "stepCounter": "Cooking Step {current} / {total}",
+      "stepPromptFirst": "Step 1: Aaram se is pehle step se shuru karein!",
+      "stepPromptMiddle": "Step {step}: Zabardast khushboo! Bilkul isi tarah aage barhein!",
+      "stepPromptLast": "Aakhri Step: Bas tayyar hai! Ab mazedaar bowl/plate sajane ke liye ready ho jayein!",
+      "prevStep": "Pichla Step",
+      "nextStep": "Agla Step",
+      "finishCookingBtn": "Khana Tayyar Hai!",
+      "doneTitle": "Waah! {meal} Bilkul Tayyar Hai!",
+      "doneBubble": "Mazedaar! Aapne khud ghar ka healthy khana bana liya! Sukoon se enjoy karein!",
+      "cookAgainBtn": "Steps Dobara Dekhein",
+      "allStepsOverview": "Saare Recipe Steps"
+    },
+    "meals": {
+      "meal-1": {
+        "name": "Masala Oats & Elaichi Chai",
+        "serving": "1 garam bowl + 1 cup kam cheeni elaichi chai",
+        "summary": "Haldi, matar aur gajar ke saath bana mazedar namkeen dalia jo subah bhar energy de.",
+        "ingredients": ["Rolled oats (50g)", "Gajar aur hare matar", "Zeera, haldi aur adrak", "1 cup elaichi chai"],
+        "steps": ["Oats aur zeera 2 minute halka bhoon lein.", "Sabziyan, paani aur chutki haldi daal kar pakayein.", "Garam elaichi chai ke saath enjoy karein."]
+      },
+      "meal-2": {
+        "name": "Moong Daal Chilla & Pudina Chutney",
+        "serving": "2 sunehri chille + 2 tbsp hari chutney",
+        "summary": "Protein se bharpoor daal ke crispy chille aur taza pudine dahi ki chutney.",
+        "ingredients": ["Bheegi hui peeli moong daal", "Kata pyaaz, dhaniya aur hari mirch", "Chutki ajwain", "Dahi pudine ki chutney"],
+        "steps": ["Daal ko adrak ke saath pees kar batter bana lein.", "Tawe par sunehra chilla sek lein.", "Hari chutney ke saath garam khayein."]
+      },
+      "meal-3": {
+        "name": "Berry Badam Lassi Smoothie Bowl",
+        "serving": "1 thanda bowl (320g)",
+        "summary": "Taza dahi ki lassi jisme berries, chia seeds aur bhune hue badam shamil hain.",
+        "ingredients": ["Gaadha taza dahi", "Mixed berries aur kela", "1 tbsp chia seeds", "6 bhune badam"],
+        "steps": ["Dahi aur berries ko smooth blend kar lein.", "Bowl mein nikal kar upar badam aur seeds sajayein."]
+      },
+      "meal-4": {
+        "name": "Grilled Paneer Tikka & Daal Thali",
+        "serving": "1 balanced thali (1 roti + daal + tikka)",
+        "summary": "Masaledar paneer tikka, tadka daal, chakki ki roti, kheere ka raita aur taza aam.",
+        "ingredients": ["120g grilled paneer tikka", "1 bowl tadka moong daal", "1 chakki aate ki roti", "Kheera raita aur taza aam"],
+        "steps": ["Paneer ko dahi aur halke tikka masale mein marinate karke grill karein.", "Garam daal, roti aur thande raite ke saath khayein."]
+      },
+      "meal-5": {
+        "name": "Chicken Tikka Quinoa & Kachumber Bowl",
+        "serving": "1 bharpoor bowl (380g)",
+        "summary": "Smoky tandoori chicken aur taza nimbu wale kachumber salad ka mazedar combo.",
+        "ingredients": ["130g tandoori chicken breast", "Aadha cup ubla quinoa", "Kheera, tamatar aur pyaaz", "Nimbu aur chaat masala"],
+        "steps": ["Chicken ko juicy aur sunehra hone tak grill karein.", "Sabziyon par nimbu aur chaat masala chhirkein aur upar rakhein."]
+      },
+      "meal-6": {
+        "name": "Chana Masala & Brown Rice",
+        "serving": "1 bowl chana + chawal",
+        "summary": "Tamatar aur adrak mein pake safed chane jo dopahar bhar taqat barqarar rakhein.",
+        "ingredients": ["1 cup uble safed chane", "Tamatar adrak masala", "Uble brown basmati chawal", "Hara dhaniya aur nimbu"],
+        "steps": ["Chanon ko tamatar ki gravy mein 10 minute pakayein.", "Garam chawalon aur nimbu ke saath khayein."]
+      },
+      "meal-7": {
+        "name": "Herb Baked Salmon & Sabziyan",
+        "serving": "1 fillet + roasted veggies",
+        "summary": "Raat ke liye halka aur omega-rich khana shakarkandi aur hari sabziyon ke saath.",
+        "ingredients": ["140g salmon fillet", "Shakarkandi aur broccoli", "Olive oil, lehsan aur kali mirch", "Taza nimbu"],
+        "steps": ["Fish aur sabziyon par masala aur olive oil lagayein.", "16 minute tak narm aur sunehra hone tak bake karein."]
+      },
+      "meal-8": {
+        "name": "Palak Tofu & Multigrain Roti",
+        "serving": "1 bowl palak + 2 chhoti rotian",
+        "summary": "Iron se bharpoor palak ki mazedar gravy aur multigrain phulka roti.",
+        "ingredients": ["Taza palak ki puree", "120g tofu ya paneer", "Lehsan, zeera aur garam masala", "2 multigrain rotian"],
+        "steps": ["Palak ubal kar adrak ke saath pees lein.", "Lehsan ke tadke mein pakayein aur tofu shamil karein."]
+      },
+      "meal-9": {
+        "name": "Bhune Makhane & Badam Crunch",
+        "serving": "1 chhota bowl (35g)",
+        "summary": "Shaam ki chai ke saath halka aur crispy desi snack desi ghee aur kali mirch ke saath.",
+        "ingredients": ["Phool makhane", "6 badam", "Aadha tsp desi ghee", "Kali mirch aur pink salt"],
+        "steps": ["Halki aanch par makhane aur badam crispy hone tak bhoonein.", "Namak aur kali mirch chhirak kar enjoy karein."]
+      },
+      "meal-10": {
+        "name": "Taza Fruit Chaat & Dahi",
+        "serving": "1 thanda cup (200g)",
+        "summary": "Saib, anar aur amrood ki chatpati chaat chaat masale aur thande dahi ke saath.",
+        "ingredients": ["Kata saib, amrood aur anar", "2 tbsp dahi", "Bhuna zeera aur chaat masala"],
+        "steps": ["Mausami phal chhote tukron mein kaatein.", "Chaat masala mila kar thanda khayein."]
+      }
+    }
+  },
+  "nutrition": {
+    "title": "Nutrition & Hydration",
+    "subtitle": "Paani ke glass, balanced macros aur rozana ki food diary sukoon se track karein.",
+    "calorieOverview": "Rozana Energy Balance",
+    "macroChartTitle": "Macronutrients Ki Taqseem",
+    "waterCardTitle": "Paani Ki Progress",
+    "waterAmountText": "Aaj {ml} ml piya gaya",
+    "balancedSuggestions": "Fori Balanced Ideas",
+    "logFoodTitle": "Diary Mein Khana Likhein",
+    "foodNameLabel": "Khane Ka Naam",
+    "foodNamePlaceholder": "Maslan: Aloo Paratha aur Dahi",
+    "foodNamePlaceholderLocal": "Maslan: Berry Oatmeal ya Grilled Chicken Bowl",
+    "mealSlotLabel": "Khane Ka Waqt",
+    "caloriesLabel": "Calories (kcal)",
+    "addDiaryBtn": "Diary Mein Shamil Karein",
+    "foodNameError": "Meharbani karke pehle khane ka naam likhein.",
+    "caloriesError": "Calories 0 ya us se zyada honi chahiye.",
+    "diaryTitle": "Aaj Ki Food Diary",
+    "emptyDiaryTitle": "Is hisse mein abhi koi khana nahi likha",
+    "emptyDiaryDesc": "Upar se koi khana likhein ya Diet Plan se ek recipe chunein!",
+    "foodLoggedToast": "Khana aapki diary mein save ho gaya!"
+  },
+  "progress": {
+    "title": "Progress & Milestones",
+    "subtitle": "Dekhein aapki pyaari si consistency aapko kahan tak le aayi hai.",
+    "weeklyActiveTime": "Haftawar Active Time",
+    "weeklyEnergyBurned": "Haftawar Calories Burn",
+    "milestonesEarned": "Jeete Hue Badges",
+    "chartTitleWeekly": "Haftawar Activity & Calories",
+    "chartTitleMonthly": "Mahana Raftaar",
+    "activeMinsLegend": "Active Minutes",
+    "caloriesLegend": "Calories Burn",
+    "goalCompletionTitle": "Goals Ki Takmeel",
+    "adjustGoals": "Goals Badlein",
+    "saveGoals": "Goals Save Karein",
+    "goalsUpdatedToast": "Personal goals update ho gaye!",
+    "historyTitle": "Workout History",
+    "emptyHistory": "Apni timeline shuru karne ke liye pehla workout poora karein!",
+    "daysShort": {
+      "Mon": "Peer",
+      "Tue": "Mangal",
+      "Wed": "Budh",
+      "Thu": "Jumerat",
+      "Fri": "Juma",
+      "Sat": "Hafta",
+      "Sun": "Itwar"
+    },
+    "weeksShort": {
+      "W1": "Hafta 1",
+      "W2": "Hafta 2",
+      "W3": "Hafta 3",
+      "W4": "Hafta 4"
+    }
+  },
+  "challenges": {
+    "title": "FitAdda Challenges",
+    "subtitle": "Mazedaar daily aur weekly goals jinhein aap apni speed se poora kar sakte hain.",
+    "thirtyDayTitle": "30-Din Khushi & Movement Calendar",
+    "thirtyDayDesc": "Jis din aap move karein ya apna khayal rakhein us par tap karein. Rest days par zero tension!",
+    "percentComplete": "{pct}% Mukammal",
+    "dailyTitle": "Rozana Challenges",
+    "weeklyTitle": "Haftawar Challenges",
+    "tapToComplete": "Complete karne ke liye tap karein",
+    "celebrated": "Mukammal Ho Gaya!",
+    "rewardsShelf": "Inamaat & Badges",
+    "items": {
+      "ch-daily-1": {
+        "title": "8 Glass Taza Paani",
+        "reward": "Fresh Glow Badge",
+        "unit": "glass"
+      },
+      "ch-daily-2": {
+        "title": "15 Minute Shaam Ki Walk",
+        "reward": "Evening Breeze Star",
+        "unit": "mins"
+      },
+      "ch-weekly-1": {
+        "title": "Is Hafte 3 Khushgawar Workouts",
+        "reward": "Steady Rhythm Trophy",
+        "unit": "workouts"
+      },
+      "ch-weekly-2": {
+        "title": "Kul 90 Active Minutes",
+        "reward": "MilkMate Champion",
+        "unit": "mins"
+      }
+    },
+    "badges": {
+      "ach-1": "Pehla Qadam Spark",
+      "ach-2": "Hydration Hero",
+      "ach-3": "Desi Kitchen Balancer",
+      "ach-4": "Consistency Star",
+      "ach-5": "Bhangra Cardio Joy",
+      "ach-6": "15-Din Milestone"
+    }
+  },
+  "profile": {
+    "title": "Mera Profile",
+    "subtitle": "FitAdda mein aapki personal identity aur sehat ki pasand.",
+    "countryLabel": "Mulk",
+    "languageLabel": "Zubaan",
+    "goalLabel": "Fitness Goal",
+    "activityLabel": "Activity Level",
+    "mealPrefLabel": "Khane Ki Pasand",
+    "statsSnapshot": "Personal Snapshot",
+    "age": "Umar",
+    "height": "Qad",
+    "weight": "Wazan",
+    "editInSettings": "Settings mein Profile & Preferences Badlein",
+    "foodPrefsSummary": "Food & Kitchen Preferences",
+    "years": "saal",
+    "cm": "cm",
+    "kg": "kg"
+  },
+  "settings": {
+    "title": "Settings & Preferences",
+    "subtitle": "Zubaan, mulk ka salaam, theme, notifications aur profile details badlein.",
+    "languageSection": "Zubaan Ki Pasand",
+    "languageDesc": "Zubaan badalne se poori website, workouts aur khane turant translate ho jate hain.",
+    "countrySection": "Mulk Aur Cultural Salaam",
+    "countryDesc": "Aapki chuni hui zubaan ko badle bina salaam ka andaaz badalta hai.",
+    "themeSection": "Theme Ka Andaaz",
+    "themeLightDesc": "Narm lavender, saaf white aur gehra charcoal",
+    "themeDarkDesc": "Saaf, simple dark charcoal aur crisp white text",
+    "notificationsSection": "Notification Settings",
+    "notifSupportive": "Subah Ka Pyara Check-in",
+    "notifWater": "Paani Peene Ki Yaad-dihani",
+    "notifCelebration": "Celebration Popups",
+    "notifDigest": "Haftawar Progress Summary",
+    "editProfileSection": "Profile Edit Karein",
+    "displayNameLabel": "Aapka Naam",
+    "calorieGuideLabel": "Rozana Calorie Target (kcal)",
+    "waterTargetLabel": "Paani Ke Glass Ka Target",
+    "moveTargetLabel": "Rozana Move Target (mins)",
+    "profileSavedToast": "Profile aur preferences save ho gayi!",
+    "nameValidationError": "Naam ka khana khali nahi reh sakta.",
+    "accountActions": "Onboarding & Demo Data",
+    "replayBtn": "Onboarding Dobara Dekhein",
+    "resetBtn": "Demo Data Refresh Karein",
+    "resetToast": "Demo data bilkul taza ho gaya!"
+  }
+}

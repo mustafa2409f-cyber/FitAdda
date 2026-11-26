@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/jpeg" href="/fitadda-logo.jpg" />
+    <title>FitAdda — Sehat bhi, Khushi bhi. Apne andaaz mein!</title>
+    <meta
+      name="description"
+      content="FitAdda: A warm fitness, guided studio workout, and balanced desi nutrition companion in English, Urdu, and Roman Urdu."
+    />
+    <meta property="og:title" content="FitAdda — Sehat bhi, Khushi bhi. Apne andaaz mein!" />
+    <meta
+      property="og:description"
+      content="FitAdda: A warm fitness, guided studio workout, and balanced desi nutrition companion."
+    />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Noto+Nastaliq+Urdu:wght@400;600;700&family=Noto+Sans+Arabic:wght@400;500;600;700&family=Outfit:wght@500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      #fitadda-preloader {
+        position: fixed;
+        inset: 0;
+        z-index: 99999;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #FBF9FF;
+        transition: opacity 0.55s cubic-bezier(0.4, 0, 0.2, 1), visibility 0.55s ease;
+      }
+
+      html.dark #fitadda-preloader,
+      body.dark #fitadda-preloader {
+        background-color: #111317;
+      }
+
+      @media (prefers-color-scheme: dark) {
+        #fitadda-preloader {
+          background-color: #111317;
+        }
+      }
+
+      #fitadda-preloader.fade-out {
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+      }
+
+      .fa-loader-ring-wrap {
+        position: relative;
+        width: 84px;
+        height: 84px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .fa-loader-ring-outer {
+        position: absolute;
+        inset: 0;
+        border-radius: 50%;
+        border: 3px solid rgba(124, 58, 237, 0.14);
+        border-top-color: #7C3AED;
+        border-right-color: #9333EA;
+        animation: faSpin 1s cubic-bezier(0.65, 0.05, 0.36, 1) infinite;
+      }
+
+      .fa-loader-ring-inner {
+        position: absolute;
+        inset: 10px;
+        border-radius: 50%;
+        border: 2.5px solid transparent;
+        border-bottom-color: #A855F7;
+        border-left-color: rgba(124, 58, 237, 0.35);
+        animation: faSpinReverse 1.4s linear infinite;
+      }
+
+      .fa-loader-logo {
+        width: 46px;
+        height: 46px;
+        border-radius: 50%;
+        object-fit: cover;
+        box-shadow: 0 6px 20px rgba(124, 58, 237, 0.25);
+        animation: faPulse 1.8s ease-in-out infinite;
+      }
+
+      .fa-loader-brand {
+        margin-top: 20px;
+        font-family: 'Outfit', 'Plus Jakarta Sans', sans-serif;
+        font-size: 1.45rem;
+        font-weight: 800;
+        letter-spacing: -0.02em;
+        background: linear-gradient(135deg, #7C3AED, #A855F7);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+
+      .fa-loader-tagline {
+        margin-top: 4px;
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        font-size: 0.8rem;
+        font-weight: 500;
+        color: #6B7280;
+        letter-spacing: 0.02em;
+      }
+
+      html.dark .fa-loader-tagline,
+      body.dark .fa-loader-tagline {
+        color: #9CA3AF;
+      }
+
+      .fa-loader-bar-track {
+        margin-top: 18px;
+        width: 150px;
+        height: 4px;
+        border-radius: 999px;
+        background: rgba(124, 58, 237, 0.14);
+        overflow: hidden;
+      }
+
+      .fa-loader-bar-fill {
+        width: 45%;
+        height: 100%;
+        border-radius: 999px;
+        background: linear-gradient(90deg, #7C3AED, #A855F7, #7C3AED);
+        animation: faSlide 1.3s ease-in-out infinite;
+      }
+
+      @keyframes faSpin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+
+      @keyframes faSpinReverse {
+        0% { transform: rotate(360deg); }
+        100% { transform: rotate(0deg); }
+      }
+
+      @keyframes faPulse {
+        0%, 100% { transform: scale(0.95); }
+        50% { transform: scale(1.04); }
+      }
+
+      @keyframes faSlide {
+        0% { transform: translateX(-110%); }
+        100% { transform: translateX(240%); }
+      }
+    </style>
+  </head>
+  <body class="bg-[#FBF9FF] text-[#1E1B2E] dark:bg-[#111317] dark:text-[#F3F4F6] antialiased transition-colors duration-300 selection:bg-[#7C3AED]/20 selection:text-[#6D28D9]">
+    <div id="fitadda-preloader" aria-label="Loading FitAdda">
+      <div class="fa-loader-ring-wrap">
+        <div class="fa-loader-ring-outer"></div>
+        <div class="fa-loader-ring-inner"></div>
+        <img src="/fitadda-logo.jpg" alt="FitAdda" class="fa-loader-logo" />
+      </div>
+      <div class="fa-loader-brand">FitAdda</div>
+      <div class="fa-loader-tagline">Sehat bhi, Khushi bhi...</div>
+      <div class="fa-loader-bar-track">
+        <div class="fa-loader-bar-fill"></div>
+      </div>
+    </div>
+
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+    <script>
+      (function () {
+        const hidePreloader = () => {
+          const loader = document.getElementById('fitadda-preloader');
+          if (!loader || loader.classList.contains('fade-out')) return;
+          loader.classList.add('fade-out');
+          setTimeout(() => {
+            if (loader && loader.parentNode) loader.remove();
+          }, 600);
+        };
+
+window.addEventListener('load', () => {
+  setTimeout(hidePreloader, 1500); // 450 ki jagah 1500 = 1.5 seconds
+});
+
+        // Fallback taake kisi slow network par screen stuck na rahe
+        setTimeout(hidePreloader, 4000);
+      })();
+    </script>
+  </body>
+</html>
